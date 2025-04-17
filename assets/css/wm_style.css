@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -204,6 +204,8 @@ header .get_started_btn {
     rgba(221, 236, 255, 1)
   );
 
+  /* background: black; */
+
   top: 0;
 }
 
@@ -228,7 +230,7 @@ header .get_started_btn {
 }
 
 .hero_grid.line_6 {
-  left: 1080px;
+  right: 0;
 }
 
 .section_hero .container {
@@ -336,7 +338,7 @@ header .get_started_btn {
 .hero_swiper {
   position: relative;
   z-index: 2;
-  background: peru;
+  /* background: peru; */
 }
 
 .hero_swiper_top_line,
@@ -373,21 +375,16 @@ header .get_started_btn {
   /* width: 40% !important; */
 }
 
-/* 
-
 @media (max-width: 1024px) {
   .section_hero .hero_swiper .swiper-slide-prev,
   .section_hero .hero_swiper .swiper-slide-next {
-    width: calc(954px * 0.25) !important;
+    width: auto !important;
   }
 
   .section_hero .hero_swiper .swiper-slide-active {
- 
-    width: calc(954px * 0.5) !important;
+    width: auto !important;
   }
 }
-  
- */
 
 /* @media (max-width: 600px) {
   .section_hero .hero_swiper .swiper-slide-next {
