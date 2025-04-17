@@ -373,6 +373,8 @@ header .get_started_btn {
   /* width: 40% !important; */
 }
 
+/* 
+
 @media (max-width: 1024px) {
   .section_hero .hero_swiper .swiper-slide-prev,
   .section_hero .hero_swiper .swiper-slide-next {
@@ -380,10 +382,12 @@ header .get_started_btn {
   }
 
   .section_hero .hero_swiper .swiper-slide-active {
-    /* width: 300px !important; */
+ 
     width: calc(954px * 0.5) !important;
   }
 }
+  
+ */
 
 /* @media (max-width: 600px) {
   .section_hero .hero_swiper .swiper-slide-next {
